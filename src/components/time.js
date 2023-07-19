@@ -31,7 +31,9 @@ const createTimeComponent = () => {
     dom.milliseconds.innerText = data.milliseconds;
   }
 
-  dom.time.append(minutes, seconds, milliseconds);
+  dom.time.append(dom.minutes, dom.seconds, dom.milliseconds);
 
   return dom.time;
 };
+
+export default createTimeComponent;
