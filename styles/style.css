@@ -46,8 +46,18 @@ body {
   transform: scale(0.95);
 }
 
-.time {
-  width: 525px;
+#time {
+  display: flex;
+  justify-content: center;
 }
 
-/* Add more styles here as needed */
+.time {
+  width: 525px;
+  position: flex;
+  padding: 0px;
+}
+
+span {
+  display: inline-block;
+  width: 40px;
+}
