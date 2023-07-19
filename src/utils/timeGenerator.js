@@ -1,4 +1,4 @@
-import data from "../data.js";
+import {data} from "../data.js";
 
 const timeGenerator = () => {
   data.milliseconds += 10;
