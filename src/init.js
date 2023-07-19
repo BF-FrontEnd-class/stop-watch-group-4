@@ -1,3 +1,3 @@
-import resetButtonListener from "./events/resetButtonListener.js";
-import startButtonListener from "./events/startButtonListener.js";
-import stopButtonListener from "./events/stopButtonListener.js";
+import './events/resetButtonListener.js';
+import './events/startButtonListener.js';
+import './events/stopButtonListener.js';
